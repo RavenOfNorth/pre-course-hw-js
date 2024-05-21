@@ -1,5 +1,5 @@
 let str = "zzzzyzz";
 
-let strArray = Array(str);
+let strSplit = str.split("");
 
-let result = (strArray.includes('y')) ? console.log("нашел") : console.log("заблудился");
+let result = (strSplit.includes('y')) ? console.log("нашел") : console.log("заблудился");
