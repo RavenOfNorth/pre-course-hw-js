@@ -5,7 +5,7 @@ let passport = {
 
 let passport2 = {};
 
-for (key in pasport) {
+for (key in passport) {
     passport2[key] === passport[key];
 };
 
