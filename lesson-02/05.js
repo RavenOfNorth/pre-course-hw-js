@@ -3,7 +3,11 @@ let passport = {
     surname: "Petrov",
 };
 
-let passport2 = passport;
+let passport2 = {};
+
+for (key in pasport) {
+    passport2[key] === passport[key];
+};
 
 passport2.name = "Ivan";
 
