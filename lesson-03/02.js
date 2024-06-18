@@ -1,11 +1,11 @@
 const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
 
-function findOrange() {
-    if (words.indexOf("апельсин")) {
+function findOrange(array) {
+    if (array.indexOf("апельсин") !== -1) {
         console.log ("Ура! нашел")
     } else {
         console.log("Придется поискать в другом магазине…")
     }
 }
 
-findOrange()
+findOrange(words)
