@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exam_1</title>
+</head>
+<body>
+    <script>
+        const misters = ["Иван", "Алексей", "Дмитрий", "Михаил", "Сергей"];
+        const femaleNames = ["Анна", "Мария", "Екатерина", "Ольга", "Наталья"];
+        let name = "агент047";
+        if (misters.includes(name)) {
+            console.log("Добрый день, мистер " + name);
+        } else if (femaleNames.includes(name)) {
+            console.log("Добрый день, мисис " + name);
+        } else {
+            console.log("Простите, " + name + ", вы уверены, что были приглашены?");
+        }
+    </script>
+</body>
+</html>
